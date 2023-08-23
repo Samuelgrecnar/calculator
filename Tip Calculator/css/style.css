@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    margin: 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+
+h1{
+    text-align: center;
+}
+
+.container{
+    background-image: linear-gradient(to top, #fbc2eb 0%, rgb(237, 88, 88) 100%);
+    margin: 0 auto;
+    padding: 20px;
+    min-width: 18.75em;
+    max-width: 25em;
+    border-radius: 10px;
+    text-align: center;
+}
+
+input{
+    width: 90%;
+    padding: 10px;
+    font-size: large;
+    margin: 5px auto;
+}
+
+#tipAmount{
+    width: 85%;
+    margin: 10px auto;
+    text-align: start;
+}
+
+#totalAmount{
+    font-size: x-large;
+    font-weight: 600;
+}
+
+button{
+    width: 40%;
+    padding: 10px;
+    font-weight: 500;
+    font-size: large;
+    cursor: pointer;
+    background-color:  #ffffff;
+}
+
+button:nth-of-type(2){
+    margin-left: 30px;
+}
